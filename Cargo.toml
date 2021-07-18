@@ -23,6 +23,6 @@ with-bench = []
 sgx_tstd = { rev = "v1.1.3", git = "https://github.com/apache/teaclave-sgx-sdk.git", features = ["backtrace"] }
 
 [dependencies]
-rand = { version = "0.7.3", git = "https://github.com/mesalock-linux/rand-sgx.git" }
+rand = { tag="v0.7.3_sgx1.1.3", git = "https://github.com/mesalock-linux/rand-sgx.git" }
 rustc-serialize = { version = "0.3.24", git = "https://github.com/mesalock-linux/rustc-serialize-sgx.git" }
 
